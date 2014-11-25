@@ -1,0 +1,112 @@
+/*****************************************************
+
+            Page-wide styles
+
+******************************************************/
+
+body {
+  font-family: sans-serif;
+  margin: 0 auto;
+}
+
+ul {
+  margin: 5px 0;
+  padding: 0;
+  list-style: none;
+}
+
+fieldset {
+  margin: 2em 0;
+  border: none;
+}
+
+legend {
+  display: block;
+  padding: 0.75em 2em;
+  background-color: #ccc;
+  border-radius: 5px;
+  margin: 0 auto;
+  width: 90%;
+  text-align: center;
+}
+
+
+/*****************************************************
+
+            Style for the wrapper div
+            and its elements
+
+******************************************************/
+
+
+#wrapper { 
+  width: 50%;
+  margin: 0 auto;
+}
+
+#wrapper div {
+
+}
+
+#addItem, .delete {
+  font-size: 1em;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0 1px 2px 0 #aaa;
+  color: #fff;
+  letter-spacing: 0.1em;
+}
+
+.delete {
+  background-color: red;
+  padding: 5px 2em;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+
+}
+
+#addItem {
+  background-color: green;
+  margin: 2px 5px;
+  padding: 5px 2em;
+}
+
+#incompleteList, #completedList {}
+
+#incompleteList label, #completedList label {
+  margin-right: 25px;
+  margin-left: 5px;
+}
+
+#incompleteList li, #completedList li {
+  padding: 10px;
+  margin: 1px 5px;
+  position: relative;
+  border-radius: 3px;
+}
+
+#incompleteList li {
+  border: 1px solid red;
+}
+
+#completedList li {
+  border: 1px solid green;
+  text-decoration: line-through;
+}
+
+input[type="text"] {
+  outline: none;
+  border: 1px solid blue;
+  height: 24px;
+  font-size: 12px;
+  padding: 0 5px;
+  background-color: #eee;
+}
+
+
+
+
+
+
+
